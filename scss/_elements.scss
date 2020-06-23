@@ -1,0 +1,22 @@
+
+input {
+
+    @include placeholder {
+        color: lighten($dark-grey, 30%) !important; 
+    }
+}
+
+select {
+    width: 50px;
+    height: 40px;
+    border: none;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 10px 15px;
+
+    &.btn-trans {
+        border: 1px solid $dark-grey;
+    }
+}

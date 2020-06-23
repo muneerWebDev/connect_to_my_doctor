@@ -1,0 +1,169 @@
+.header-pager-panel {
+    padding: 0 15px;
+    display: flex;
+
+    select {
+        margin: 0 20px;
+    }
+
+    .search-wrap {
+        display: flex;
+        margin-left: auto;
+        border-bottom: 1px solid $dark-grey;
+
+        input,
+        button {
+            border: none;
+            color: $dark-grey;
+            font-size: .9rem;
+            padding-bottom: 0px;
+
+            &:hover,
+            &:active {
+                background: none !important;
+                color: $dark-grey !important;
+                border: none !important;
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+.footer-pager-panel {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+
+    .nav-btns {
+        margin-left: auto;
+        display: flex;
+    }
+}
+
+.table-wrapper {
+    margin-bottom: 3rem;
+}
+
+.table {
+    margin: 0;
+
+    thead {
+        th {
+            padding: 35px 0 20px;
+            position: relative;
+            padding-bottom: 24px;
+            color: $blue-primary;
+            border-width: 0 0 2px;
+            text-align: center;
+
+            .wrap {
+                display: inline-block;
+                width: 100%;
+                padding: 5px 15px;
+                background-image: linear-gradient(#BCBBBB 33%, rgba(255, 255, 255, 0) 0%);
+                background-position: right;
+                background-size: 1px 8px;
+                background-repeat: repeat-y;
+            }
+
+            &:first-child {
+                text-align: left;
+                max-width: 55px;
+            }
+
+            &:last-child {
+                .wrap {
+                    background: none;
+                }
+            }
+        }
+    }
+
+    tbody {
+        td {
+            border: none;
+            background-image: linear-gradient(to right, #BCBBBB 33%, rgba(255, 255, 255, 0) 0%);
+            background-position: bottom;
+            background-size: 9px 1px;
+            background-repeat: repeat-x;
+            padding: 25px 20px;
+            text-align: center;
+
+            &:first-child {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.profile_template_inList {
+    text-align: center;
+    margin: 35px 0;
+
+    .wrap {
+        display: inline-block;
+
+        position: relative;
+
+        &::after {
+            content: '...';
+            color: $dark-grey;
+            position: absolute;
+            transform: rotate(90deg);
+            right: 0;
+            top: 5px;
+            font-size: 20px;
+        }
+
+    }
+
+    .image {
+        width: 145px;
+        height: 155px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 15px;
+
+        p {
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .name {
+            color: #000;
+            margin-bottom: 8px;
+        }
+
+        .admission-detail {
+            display: inline-block;
+            color: $blue-primary;
+            font-weight: 600;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: block;
+                width: calc(100% - 10px);
+                height: 2px;
+                margin: 8px 0 5px 3px;
+                background: $blue-primary;
+            }
+        }
+    }
+
+    border-radius: 25px;
+    transition: .3s;
+    padding: 5px;
+
+    &:hover {
+        box-shadow: 0 0 5px lighten($dark-grey, 20%);
+    }
+}
