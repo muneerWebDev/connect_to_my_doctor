@@ -59,7 +59,7 @@
                                 <thead>
                                     <tr>
                                         <th>
-                                            <div class="wrap">Request ID</div>
+                                            <div class="wrap">ID</div>
                                         </th>
                                         <th>
                                             <div class="wrap">Doctor Name</div>
@@ -68,10 +68,22 @@
                                             <div class="wrap">Patient Name</div>
                                         </th>
                                         <th>
-                                            <div class="wrap">Notes</div>
+                                            <div class="wrap">Date & Time</div>
                                         </th>
                                         <th>
-                                            <div class="wrap">Actions</div>
+                                            <div class="wrap">Fees</div>
+                                        </th>
+                                        <th>
+                                            <div class="wrap">Payment ID</div>
+                                        </th>
+                                        <th>
+                                            <div class="wrap">Appt Status</div>
+                                        </th>
+                                        <th>
+                                            <div class="wrap">Doctor Status &<br>Screen Status</div>
+                                        </th>
+                                        <th>
+                                            <div class="wrap">Patient Status &<br>Screen Status</div>
                                         </th>
                                     </tr>
                                 </thead>
@@ -80,50 +92,81 @@
                                         <td>1</td>
                                         <td>Radhu</td>
                                         <td>Jahar</td>
-                                        <td>Arthritis</td>
-                                        <td>Normal </td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
                                         <td>Radhu</td>
                                         <td>Jahar</td>
-                                        <td>Arthritis</td>
-                                        <td>Normal </td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
                                         <td>Radhu</td>
                                         <td>Jahar</td>
-                                        <td>Arthritis</td>
-                                        <td>Normal </td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
                                         <td>Radhu</td>
                                         <td>Jahar</td>
-                                        <td>Arthritis</td>
-                                        <td>Normal </td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
                                         <td>Radhu</td>
                                         <td>Jahar</td>
-                                        <td>Arthritis</td>
-                                        <td>Normal </td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
                                         <td>Radhu</td>
                                         <td>Jahar</td>
-                                        <td>Arthritis</td>
-                                        <td>Normal </td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
                                         <td>Radhu</td>
                                         <td>Jahar</td>
-                                        <td>Arthritis</td>
-                                        <td>Normal </td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Radhu</td>
+                                        <td>Jahar</td>
+                                        <td>24/02/20</td>
+                                        <td>2500</td>
+                                        <td>56 <td>
+                                        <td>Active</td>
+                                        <td>On</td>
                                     </tr>
 
                                 </tbody>
