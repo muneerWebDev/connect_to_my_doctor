@@ -6,6 +6,46 @@
         margin: 0 20px;
     }
 
+    .date-wrap {
+
+        display: flex;
+        align-items: center;
+
+        label {
+            margin-bottom: 0;
+        }
+
+        input {
+            border: none;
+            border-bottom: 1px solid $dark-grey;
+            border-radius: 0;
+
+            @include placeholder {
+                color: $dark-grey;
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .input-group {
+            position: relative;
+
+            &::after {
+                content: '';
+                border: solid lighten($dark-grey, 30%);
+                border-width: 0 1.5px 1.5px 0;
+                display: inline-block;
+                padding: 4px;
+                position: absolute;
+                right: 10px;
+                transform: rotate(45deg);
+                top: 12px;
+            }
+        }
+    }
+
     .search-wrap {
         display: flex;
         margin-left: auto;

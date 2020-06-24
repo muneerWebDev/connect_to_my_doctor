@@ -33,7 +33,7 @@
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-calendar-check-o"></i> Quick
                         Appointment</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-calendar"></i> All Appointments</a>
+                <li class="nav-item"><a class="nav-link" href="booked-appointments.php"><i class="fa fa-calendar"></i> All Appointments</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="requested-appointments.php"><i class="fa fa-calendar-plus-o"></i> Requested
                         Appointments</a></li>

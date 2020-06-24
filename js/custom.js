@@ -38,4 +38,35 @@ $('.form_time').datetimepicker({
     maxView: 1,
     forceParse: 0
 });
+// $('.datetimepicker').datetimepicker();
+
+jQuery('.startDate').datetimepicker({
+    format:'Y/m/d',
+    onShow:function( ct ){
+     this.setOptions({
+      maxDate:jQuery('.endDate').val()?jQuery('.endDate').val():false
+     })
+    },
+    timepicker:false
+   });
+   jQuery('.endDate').datetimepicker({
+    format:'Y/m/d',
+    onShow:function( ct ){
+     this.setOptions({
+      minDate:jQuery('.startDate').val()?jQuery('.startDate').val():false
+     })
+    },
+    timepicker:false
+   });
+
 // end datetimepicker //
+
+//table to excel
+$(function() {
+    $(".exportToExcel").click(function(){
+    $(".table2excel").table2excel({
+        exclude: ".noExl",
+        name: "Excel Document Name"
+    }); 
+     });
+});
