@@ -41,32 +41,57 @@ $('.form_time').datetimepicker({
 // $('.datetimepicker').datetimepicker();
 
 jQuery('.startDate').datetimepicker({
-    format:'Y/m/d',
-    onShow:function( ct ){
-     this.setOptions({
-      maxDate:jQuery('.endDate').val()?jQuery('.endDate').val():false
-     })
+    format: 'Y/m/d',
+    onShow: function (ct) {
+        this.setOptions({
+            maxDate: jQuery('.endDate').val() ? jQuery('.endDate').val() : false
+        })
     },
-    timepicker:false
-   });
-   jQuery('.endDate').datetimepicker({
-    format:'Y/m/d',
-    onShow:function( ct ){
-     this.setOptions({
-      minDate:jQuery('.startDate').val()?jQuery('.startDate').val():false
-     })
+    timepicker: false
+});
+jQuery('.endDate').datetimepicker({
+    format: 'Y/m/d',
+    onShow: function (ct) {
+        this.setOptions({
+            minDate: jQuery('.startDate').val() ? jQuery('.startDate').val() : false
+        })
     },
-    timepicker:false
-   });
-
+    timepicker: false
+});
+$('.dateOnly').datetimepicker({
+    timepicker: false,
+    format:'d.m.Y',
+});
+$('.timeOnly').datetimepicker({
+    datepicker:false,
+    format:'H:i'
+});
 // end datetimepicker //
 
 //table to excel
-$(function() {
-    $(".exportToExcel").click(function(){
-    $(".table2excel").table2excel({
-        exclude: ".noExl",
-        name: "Excel Document Name"
-    }); 
-     });
+$(function () {
+    $(".exportToExcel").click(function () {
+        $(".table2excel").table2excel({
+            exclude: ".noExl",
+            name: "Excel Document Name"
+        });
+    });
+});
+
+$('.frm-con-tag input, .frm-con-tag textarea').keyup(function(){
+    if($(this).val()!=''){
+        $(this).closest(".frm-con-tag").addClass("valued");
+    }else{
+        $(this).closest(".frm-con-tag").removeClass("valued");
+    }
+
+});
+
+$(".frm-con-tag select").click(function(){
+    
+    if($(this).val()!=''){
+        $(this).closest(".frm-con-tag").addClass("valued");
+    }else{
+        $(this).closest(".frm-con-tag").removeClass("valued");
+    }
 });

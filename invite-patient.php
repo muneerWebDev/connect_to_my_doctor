@@ -77,16 +77,16 @@
                 </div>
 
                 <div class='col-md-5'>
-                    <div class="frm-con-tag input-group date form_date" data-date-format="dd MM yyyy" data-link-format="yyyy-mm-dd">
-                        <input placeholder="Date" onFocus="this.placeholder = ''" onBlur="this.placeholder = 'Date'" class="frm-con effect-3 arrow-bg" type="text" required>
+                    <div class="frm-con-tag input-group date" data-date-format="dd MM yyyy" data-link-format="yyyy-mm-dd">
+                        <input placeholder="Date" onFocus="this.placeholder = ''" onBlur="this.placeholder = 'Date'" class="frm-con effect-3 arrow-bg dateOnly" type="text" required>
                         <span class="focus-border"></span>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
                     </div>
                 </div>
 
                 <div class='col-md-2'>
-                    <div class="frm-con-tag input-group date form_time" data-date-format="hh:ii" data-link-format="hh:ii">
-                        <input placeholder="Time" onFocus="this.placeholder = ''" onBlur="this.placeholder = 'Time'" class="frm-con effect-3 arrow-bg" type="text" required>
+                    <div class="frm-con-tag input-group date" data-date-format="hh:ii" data-link-format="hh:ii">
+                        <input placeholder="Time" onFocus="this.placeholder = ''" onBlur="this.placeholder = 'Time'" class="frm-con effect-3 arrow-bg timeOnly" type="text" required>
                         <span class="focus-border"></span>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
                     </div>

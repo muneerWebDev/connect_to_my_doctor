@@ -265,6 +265,25 @@ a:visited {
     position: relative;
     margin-bottom: 20px;
     color: #b7b7b7;
+    position: relative;
+
+    label {
+        position: absolute;
+        left: 13px;
+        top: 10px;
+        margin: 0;
+        transition: .3s;
+    }
+
+    &.valued,&:focus-within {
+        label {
+            top: -10px;
+            font-size: 12px;
+        }
+    }
+    select{
+        color: #707070 !important;
+    }
 }
 
 .frm-con {

@@ -31,7 +31,7 @@
             <ul class="navbar-nav">
                 <li class=" nav-item"><a class="nav-link active" href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-calendar-check-o"></i> Quick
+                <li class="nav-item"><a class="nav-link" href="book-appointment.php"><i class="fa fa-calendar-check-o"></i> Quick
                         Appointment</a></li>
                 <li class="nav-item"><a class="nav-link" href="booked-appointments.php"><i class="fa fa-calendar"></i> All Appointments</a>
                 </li>
